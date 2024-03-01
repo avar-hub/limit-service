@@ -6,7 +6,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties("limits-service")
+@ConfigurationProperties("limits-service") // -> fetching data from properties
 @Getter
 @Setter
 public class Configuration {
